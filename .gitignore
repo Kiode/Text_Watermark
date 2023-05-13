@@ -1,1 +1,3 @@
 sgns.merge.word.bz2
+__pycache__/
+*.pyc
