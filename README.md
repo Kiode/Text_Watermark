@@ -8,6 +8,7 @@ Official implementation of the watermark injection and detection algorithms pres
 
 Implementation is based on the "logit processor" abstraction provided by the [huggingface/transformers 🤗](https://github.com/huggingface/transformers) library.
 
+Download Chinese word vector model sgns.merge.word.bz2 from https://drive.google.com/file/d/1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR/view
 The `WatermarkLogitsProcessor` is designed to be readily compatible with any model that supports the `generate` API.
 Any model that can be constructed using the `AutoModelForCausalLM` or `AutoModelForSeq2SeqLM` factories _should_ be compatible.
 
