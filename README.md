@@ -7,9 +7,9 @@ Official implementation of the watermark injection and detection algorithms pres
 ### Requirements
 - Python 3.9
 - check requirements.txt
-```
+```sh
 pip install -r requirements.txt
-pip install git+https://github.com/JunnYu/WoBERT_pytorch.git
+pip install git+https://github.com/JunnYu/WoBERT_pytorch.git  # Chinese BERT model
 ```
 - For Chinese, please download the [pre-trained Chinese word vectors](https://drive.google.com/file/d/1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR/view) and place it in the root directory.
 
