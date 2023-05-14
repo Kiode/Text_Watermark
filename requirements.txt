@@ -2,7 +2,6 @@ gensim==4.3.0
 gradio==3.30.0
 jieba==0.42.1
 nltk==3.8.1
-paddle==1.0.2
 paddlepaddle==2.4.2
 python_Levenshtein==0.21.0
 scipy==1.7.3
