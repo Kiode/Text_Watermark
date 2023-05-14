@@ -400,7 +400,7 @@ class watermark_model:
         encodings = self.get_encodings_fast(text)
         n = len(encodings)
         ones = sum(encodings)
-        z = (ones - p * n) / (n * p * (1 - p)) ** 0.5 # z-score:np=均值, (np(1-p))**0.5为标准差
+        z = (ones - p * n) / (n * p * (1 - p)) ** 0.5 
         # threshold = norm.ppf(1 - alpha / 2)
         threshold = norm.ppf(1 - alpha, loc=0, scale=1)
         p_value = norm.sf(z)
