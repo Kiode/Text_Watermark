@@ -33,9 +33,7 @@ $ python demo_gradio.py --language English --tau_word 0.8 --lamda 0.83
 ```sh
 $ python demo_gradio.py --language Chinese --tau_word 0.75 --lamda 0.83
 ```
-<p align="center">
-  <img src="images/cn_gradio.gif" />
-</p>
+https://github.com/Kiode/Text_Watermark_Language_Models/assets/19408781/adef2a33-c7fc-4bd6-8bcb-7c2ec808e017
 
 #### Command Line Interface
 ```sh
