@@ -21,14 +21,11 @@ The watermark injection and detection modules are located in the `models` direct
 We provide two demonstrations, `demo_CLI.py` and `demo_gradio.py`, which correspond to command-line interaction and graphical interface interaction respectively.
 
 ### Demo Usage
-> Click on the GIFs to enlarge them for a better experience.
 #### Graphical User Interface
 ```sh
 $ python demo_gradio.py --language English --tau_word 0.8 --lamda 0.83
 ```
-<p align="center">
-  <img src="images/eng_gradio.gif" />
-</p>
+https://github.com/Kiode/Text_Watermark_Language_Models/assets/19408781/614e10f6-f24f-4951-88f3-61cd5b2ec9cf
 
 ```sh
 $ python demo_gradio.py --language Chinese --tau_word 0.75 --lamda 0.83
