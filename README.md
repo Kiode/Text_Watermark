@@ -21,6 +21,7 @@ The watermark injection and detection modules are located in the `models` direct
 We provide two demonstrations, `demo_CLI.py` and `demo_gradio.py`, which correspond to command-line interaction and graphical interface interaction respectively.
 
 ## Demo Usage
+> Click on the GIFs to enlarge them for a better experience.
 ### Graphical User Interface
 ```sh
 $ python demo_gradio.py --language English --tau_word 0.8 --lamda 0.83
