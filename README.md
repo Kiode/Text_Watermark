@@ -26,7 +26,7 @@ We provide two demonstrations, `demo_CLI.py` and `demo_gradio.py`, which corresp
 $ python demo_gradio.py --language English --tau_word 0.8 --lamda 0.83
 ```
 <p align="center">
-  <img src="images/eng_gradio.gif" />
+  <img src="images/en_gradio.gif" />
 </p>
 
 ```sh
